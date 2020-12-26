@@ -12,4 +12,4 @@ def member_since(username):
         return 'There is no such user on CodeWars!'
 
 
-print(member_since('lekuid'))
+print(member_since(input('Enter username:')))
